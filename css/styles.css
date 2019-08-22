@@ -1,0 +1,148 @@
+nav.navbar {
+ border-radius: 0px;
+ background-color: #1144CC;
+ width: 100%;
+ border: 0px;
+ overflow: ;
+}
+li {
+	background-color: black;
+	color: white;
+}
+
+#main-content {
+   clear: both;
+   overflow: hidden;
+
+}
+
+#header-container {
+	padding-left: 20px;
+	position: relative;
+	margin-bottom: 10px;
+	height: 50px;
+}
+h1 {
+	line-height: .9;
+	text-transform: uppercase;
+	color: white;
+	position: absolute;
+	left:  5px;
+	bottom:  0px;
+	margin: 10px auto 5px 0px;
+	padding-left:  0px ;
+	vertical-align: bottom;
+	width: 100%;
+	font-size: 1.6em;
+	padding-left: 0px;
+}
+#menu{
+	text-transform: uppercase;
+	font-size: 1.4em; 
+    margin-bottom: 30px;
+}
+#head {
+	text-transform: uppercase;
+	font-size: 1.2em
+}
+.info {
+   background-color: #aaee88;
+   color: white;
+   
+}
+
+div.container button.navbar-toggle {
+    border-radius: 1px;
+    border: 1px solid black;
+    background-color: #61122f; 
+    position: absolute;
+    top: 0px;
+    right:20px;   
+    margin-bottom: auto 0px;
+}
+
+.navbar-toggle {
+	position: absolute;
+    top: 0px;
+    right:20px;   
+}
+
+button:hover {
+	background-color: black;
+	box-shadow: 15px 15px auto #aaee22;
+}
+div.navbar-brand {
+	width: 100%;
+}
+
+#collpasable-nav{
+    border-right: 0px;
+    border: 0px;
+    border-color: #cccc;
+    margin-right,margin-left:  0px;
+    padding-top: 0px;
+
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.2em;
+}
+
+div.collapse {
+	margin: 0px 0px 0px;
+	clear: both;
+}
+ div li {
+ 	text-align: center;
+ 	padding: 0px;
+ 	border:0px 0px 0px 0px;
+ 	margin: 0px;
+ }
+ div ul {
+    border:0px 0px 0px 0px;
+    
+     }
+
+ /* small devices only */
+ @media (max-width: 768px) {
+ 	nav {
+ 		width: 100%;
+ 		border:0px;
+ 		opacity: .8;
+ 	}
+
+ button {
+         margin-top: -190px;
+         position: absolute;
+         top:0px;
+         right: 20px;
+         background-color:  #61122f;
+    }
+    nav {
+    	height: 60px;
+    }
+    h1 {
+    	margin:0px;
+    	position: absolute;
+    	left: 2px;
+    	bottom: 1px;
+    	padding-left: 10px;
+    }
+    
+}
+/* custom width */
+@media (max-width: 480px) {
+	#main-content {
+		width:95%;
+	}
+}
