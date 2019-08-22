@@ -1,3 +1,11 @@
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
 nav.navbar {
  border-radius: 0px;
  background-color: #1144CC;
@@ -41,11 +49,11 @@ h1 {
 	font-size: 1.4em; 
     margin-bottom: 30px;
 }
-#head {
+#head,#head2 {
 	text-transform: uppercase;
 	font-size: 1.2em
 }
-.info {
+.info , #head2 {
    background-color: #aaee88;
    color: white;
    
